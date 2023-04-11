@@ -1,0 +1,246 @@
+Log created: 2023-04-07 16:48:41
+Type: backup
+[2023-04-07 16:48:46][notice]Start backing up.
+[2023-04-07 16:48:46][notice]server info fcgi:Off max execution time: 300 wp version:6.2 php version:8.0.25 db version:10.4.27 php ini:safe_mode: memory_limit:256M memory_get_usage:147.98 MB memory_get_peak_usage:149.00 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-04-07 16:48:46][notice]Prepare to backup backup_db files.
+[2023-04-07 16:48:46][notice]Start exporting database.
+[2023-04-07 16:48:46][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-04-07 16:48:46][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-04-07 16:48:46][notice]Preparing to dump table wp_cky_cookies
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_commentmeta
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_comments
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_e_events
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_gla_attribute_mapping_rules
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_gla_merchant_issues
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_gla_shipping_rates
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_gla_shipping_times
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_links
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_automation_run_logs
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_automation_run_subjects
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_automation_runs
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_automation_triggers
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_automation_versions
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_automations
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_custom_fields
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_dynamic_segment_filters
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_feature_flags
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_forms
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_log
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_migrations
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_newsletter_links
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_newsletter_option
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_newsletter_option_fields
+[2023-04-07 16:48:47][notice]Preparing to dump table wp_mailpoet_newsletter_posts
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_newsletter_segment
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_newsletters
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_scheduled_task_subscribers
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_scheduled_tasks
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_segments
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_sending_queues
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_settings
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_statistics_bounces
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_statistics_clicks
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_statistics_forms
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_statistics_newsletters
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_statistics_opens
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_statistics_unsubscribes
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_statistics_woocommerce_purchases
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_stats_notifications
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_subscriber_custom_field
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_subscriber_ips
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_subscriber_segment
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_subscriber_tag
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_subscribers
+[2023-04-07 16:48:48][notice]Preparing to dump table wp_mailpoet_tags
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_mailpoet_user_agents
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_mailpoet_user_flags
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_term_relationships
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_term_taxonomy
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_termmeta
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_terms
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_ulike
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_ulike_activities
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_ulike_comments
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_ulike_forums
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_ulike_meta
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_usermeta
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_users
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_wc_admin_note_actions
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_wc_category_lookup
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_wc_customer_lookup
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_wc_download_log
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_wc_order_product_lookup
+[2023-04-07 16:48:49][notice]Preparing to dump table wp_wc_order_stats
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_product_attributes_lookup
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_product_download_directories
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_rate_limits
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_reserved_stock
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_webhooks
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wfblockediplog
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wfblocks7
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_cky_cookie_categories
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_aioseo_posts
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_cky_banners
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_wc_admin_notes
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_aioseo_cache
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_aioseo_notifications
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-04-07 16:48:50][notice]Preparing to dump table wp_gla_budget_recommendations
+[2023-04-07 16:48:51][notice]Preparing to dump table wp_wfconfig
+[2023-04-07 16:48:51][notice]Preparing to dump table wp_posts
+[2023-04-07 16:48:51][notice]Preparing to dump table wp_mailpoet_newsletter_templates
+[2023-04-07 16:48:51][notice]Preparing to dump table wp_postmeta
+[2023-04-07 16:48:51][notice]Preparing to dump table wp_options
+[2023-04-07 16:48:51][notice]Exporting database finished.
+[2023-04-07 16:48:51][notice]Start compressing database
+[2023-04-07 16:48:51][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_db.sql
+[2023-04-07 16:48:52][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_db.part001.zip, filesize: 1.39 MB
+[2023-04-07 16:48:52][notice]Compressing database completed
+[2023-04-07 16:48:52][notice]Backing up backup_db completed.
+[2023-04-07 16:48:52][notice]Prepare to backup backup_themes files.
+[2023-04-07 16:48:54][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip index:500
+[2023-04-07 16:48:59][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip success. index:500 file size:3.15 MB
+[2023-04-07 16:48:59][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip index:1000
+[2023-04-07 16:49:05][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip success. index:1000 file size:9.57 MB
+[2023-04-07 16:49:05][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip index:1500
+[2023-04-07 16:49:15][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip success. index:1500 file size:17.27 MB
+[2023-04-07 16:49:15][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip index:2000
+[2023-04-07 16:49:20][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.part001.zip success. index:2000 file size:26.07 MB
+[2023-04-07 16:49:20][notice]Backing up backup_themes completed.
+[2023-04-07 16:49:20][notice]Prepare to backup backup_plugin files.
+[2023-04-07 16:50:01][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:500
+[2023-04-07 16:50:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:500 file size:2.35 MB
+[2023-04-07 16:50:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:1000
+[2023-04-07 16:50:25][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:1000 file size:5.34 MB
+[2023-04-07 16:50:25][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:1500
+[2023-04-07 16:50:32][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:1500 file size:8.15 MB
+[2023-04-07 16:50:32][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:2000
+[2023-04-07 16:50:41][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:2000 file size:9.94 MB
+[2023-04-07 16:50:41][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:2500
+[2023-04-07 16:50:55][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:2500 file size:15.16 MB
+[2023-04-07 16:50:55][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:3000
+[2023-04-07 16:51:02][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:3000 file size:17.89 MB
+[2023-04-07 16:51:02][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:3500
+[2023-04-07 16:51:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:3500 file size:24.08 MB
+[2023-04-07 16:51:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:4000
+[2023-04-07 16:51:16][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:4000 file size:24.69 MB
+[2023-04-07 16:51:16][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:4500
+[2023-04-07 16:51:31][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:4500 file size:25.52 MB
+[2023-04-07 16:51:31][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:5000
+[2023-04-07 16:51:43][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:5000 file size:26.15 MB
+[2023-04-07 16:51:43][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:5500
+[2023-04-07 16:51:56][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:5500 file size:27.06 MB
+[2023-04-07 16:51:56][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:6000
+[2023-04-07 16:52:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:6000 file size:27.67 MB
+[2023-04-07 16:52:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:6500
+[2023-04-07 16:52:20][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:6500 file size:28.24 MB
+[2023-04-07 16:52:20][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:7000
+[2023-04-07 16:52:35][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:7000 file size:28.96 MB
+[2023-04-07 16:52:35][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:7500
+[2023-04-07 16:52:46][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:7500 file size:29.68 MB
+[2023-04-07 16:52:46][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:8000
+[2023-04-07 16:52:58][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:8000 file size:30.32 MB
+[2023-04-07 16:52:58][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:8500
+[2023-04-07 16:53:02][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:8500 file size:30.88 MB
+[2023-04-07 16:53:02][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:9000
+[2023-04-07 16:53:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:9000 file size:45.10 MB
+[2023-04-07 16:53:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:9500
+[2023-04-07 16:53:20][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:9500 file size:47.66 MB
+[2023-04-07 16:53:20][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:10000
+[2023-04-07 16:53:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:10000 file size:49.09 MB
+[2023-04-07 16:53:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:10500
+[2023-04-07 16:54:00][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:10500 file size:50.13 MB
+[2023-04-07 16:54:00][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:11000
+[2023-04-07 16:54:11][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:11000 file size:54.94 MB
+[2023-04-07 16:54:11][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:11500
+[2023-04-07 16:54:24][error]Task timed out.
+[2023-04-07 16:55:35][notice]Start backing up.
+[2023-04-07 16:55:35][notice]server info fcgi:Off max execution time: 300 wp version:6.2 php version:8.0.25 db version:10.4.27 php ini:safe_mode: memory_limit:256M memory_get_usage:133.82 MB memory_get_peak_usage:134.84 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-04-07 16:55:35][notice]Prepare to backup backup_plugin files.
+[2023-04-07 16:56:27][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:11500
+[2023-04-07 16:56:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:11500 file size:58.56 MB
+[2023-04-07 16:56:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:12000
+[2023-04-07 16:56:49][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:12000 file size:59.16 MB
+[2023-04-07 16:56:49][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:12500
+[2023-04-07 16:57:03][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:12500 file size:59.79 MB
+[2023-04-07 16:57:04][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:13000
+[2023-04-07 16:57:13][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:13000 file size:60.43 MB
+[2023-04-07 16:57:13][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:13500
+[2023-04-07 16:57:25][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:13500 file size:60.95 MB
+[2023-04-07 16:57:25][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:14000
+[2023-04-07 16:57:43][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:14000 file size:61.52 MB
+[2023-04-07 16:57:43][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:14500
+[2023-04-07 16:58:00][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:14500 file size:62.43 MB
+[2023-04-07 16:58:00][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:15000
+[2023-04-07 16:58:12][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:15000 file size:63.02 MB
+[2023-04-07 16:58:12][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:15500
+[2023-04-07 16:58:28][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:15500 file size:76.01 MB
+[2023-04-07 16:58:28][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:16000
+[2023-04-07 16:58:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:16000 file size:78.07 MB
+[2023-04-07 16:58:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:16500
+[2023-04-07 16:58:59][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:16500 file size:80.46 MB
+[2023-04-07 16:58:59][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:17000
+[2023-04-07 16:59:16][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:17000 file size:81.84 MB
+[2023-04-07 16:59:16][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:17500
+[2023-04-07 16:59:37][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:17500 file size:82.30 MB
+[2023-04-07 16:59:37][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:18000
+[2023-04-07 16:59:47][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:18000 file size:82.79 MB
+[2023-04-07 16:59:47][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:18500
+[2023-04-07 16:59:56][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:18500 file size:83.48 MB
+[2023-04-07 16:59:56][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:19000
+[2023-04-07 17:00:05][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:19000 file size:85.27 MB
+[2023-04-07 17:00:05][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:19500
+[2023-04-07 17:00:16][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:19500 file size:85.97 MB
+[2023-04-07 17:00:16][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:20000
+[2023-04-07 17:00:35][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:20000 file size:86.65 MB
+[2023-04-07 17:00:35][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:20500
+[2023-04-07 17:01:10][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:20500 file size:88.55 MB
+[2023-04-07 17:01:10][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:21000
+[2023-04-07 17:01:31][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:21000 file size:90.13 MB
+[2023-04-07 17:01:31][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:21500
+[2023-04-07 17:01:50][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:21500 file size:91.13 MB
+[2023-04-07 17:01:50][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip index:22000
+[2023-04-07 17:01:57][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.part001.zip success. index:22000 file size:92.85 MB
+[2023-04-07 17:02:01][notice]Backing up backup_plugin completed.
+[2023-04-07 17:02:02][notice]Prepare to backup backup_uploads files.
+[2023-04-07 17:02:02][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_uploads.part001.zip index:500
+[2023-04-07 17:02:11][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_uploads.part001.zip success. index:500 file size:54.92 MB
+[2023-04-07 17:02:12][notice]Backing up backup_uploads completed.
+[2023-04-07 17:02:12][notice]Prepare to backup backup_content files.
+[2023-04-07 17:02:12][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_content.part001.zip index:500
+[2023-04-07 17:02:19][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_content.part001.zip success. index:500 file size:3.14 MB
+[2023-04-07 17:02:19][notice]Backing up backup_content completed.
+[2023-04-07 17:02:19][notice]Prepare to backup backup_core files.
+[2023-04-07 17:02:22][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip index:500
+[2023-04-07 17:02:42][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip success. index:500 file size:8.88 MB
+[2023-04-07 17:02:42][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip index:1000
+[2023-04-07 17:02:52][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip success. index:1000 file size:9.40 MB
+[2023-04-07 17:02:52][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip index:1500
+[2023-04-07 17:02:58][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip success. index:1500 file size:10.82 MB
+[2023-04-07 17:02:58][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip index:2000
+[2023-04-07 17:03:17][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip success. index:2000 file size:16.27 MB
+[2023-04-07 17:03:17][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip index:2500
+[2023-04-07 17:03:27][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip success. index:2500 file size:19.16 MB
+[2023-04-07 17:03:28][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip index:3000
+[2023-04-07 17:03:28][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.part001.zip success. index:3000 file size:19.41 MB
+[2023-04-07 17:03:29][notice]Backing up backup_core completed.
+[2023-04-07 17:03:29][notice]Prepare to backup backup_merge files.
+[2023-04-07 17:03:29][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_db.zip
+[2023-04-07 17:03:29][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_all.part001.zip, filesize: 1.36 MB
+[2023-04-07 17:03:30][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_themes.zip
+[2023-04-07 17:03:31][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_all.part001.zip, filesize: 27.04 MB
+[2023-04-07 17:03:31][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_plugin.zip
+[2023-04-07 17:03:37][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_all.part001.zip, filesize: 114.83 MB
+[2023-04-07 17:03:39][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_uploads.zip
+[2023-04-07 17:03:43][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_all.part001.zip, filesize: 169.73 MB
+[2023-04-07 17:03:43][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_content.zip
+[2023-04-07 17:03:48][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_all.part001.zip, filesize: 172.63 MB
+[2023-04-07 17:03:49][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_core.zip
+[2023-04-07 17:03:52][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6430496960ca5_2023-04-07-16-48_backup_all.part001.zip, filesize: 191.61 MB
+[2023-04-07 17:03:57][notice]Backing up backup_merge completed.
+[2023-04-07 17:03:57][notice]Backup completed.

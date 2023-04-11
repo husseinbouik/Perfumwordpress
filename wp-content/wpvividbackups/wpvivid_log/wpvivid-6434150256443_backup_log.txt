@@ -1,0 +1,186 @@
+Log created: 2023-04-10 13:54:10
+Type: backup
+[2023-04-10 13:54:15][notice]Start backing up.
+[2023-04-10 13:54:15][notice]server info fcgi:Off max execution time: 300 wp version:6.2 php version:8.2.0 db version:10.4.27 php ini:safe_mode: memory_limit:256M memory_get_usage:144.76 MB memory_get_peak_usage:145.53 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-04-10 13:54:15][notice]Prepare to backup backup_db files.
+[2023-04-10 13:54:15][notice]Start exporting database.
+[2023-04-10 13:54:15][notice]Preparing to dump table wp_wfls_role_counts
+[2023-04-10 13:54:15][notice]Preparing to dump table wp_cky_cookies
+[2023-04-10 13:54:15][notice]Preparing to dump table wp_gla_attribute_mapping_rules
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_gla_merchant_issues
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_mailpoet_automation_triggers
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_mailpoet_automations
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_mailpoet_forms
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_mailpoet_log
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_mailpoet_statistics_bounces
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wc_category_lookup
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wc_reserved_stock
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wfblockediplog
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wfcrawlers
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wffilechanges
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wflocs
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wfls_settings
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wfnotifications
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wfreversecache
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_wftrafficrates
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2023-04-10 13:54:16][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_cky_cookie_categories
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_e_events
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_gla_shipping_times
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_links
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_automation_run_logs
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_automation_runs
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_automation_versions
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_custom_fields
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_dynamic_segment_filters
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_feature_flags
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_migrations
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_newsletter_option
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_newsletter_option_fields
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_newsletter_posts
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_newsletter_segment
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_scheduled_task_subscribers
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_settings
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_statistics_forms
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_subscriber_custom_field
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_subscriber_ips
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_tags
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_user_agents
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_mailpoet_user_flags
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_term_relationships
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wc_admin_note_actions
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wc_product_attributes_lookup
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wc_product_download_directories
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wc_rate_limits
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wc_webhooks
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wfhoover
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wflivetraffichuman
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2023-04-10 13:54:17][notice]Preparing to dump table wp_woocommerce_log
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_order_items
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_sessions
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_yoast_migrations
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_cky_banners
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_commentmeta
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_gla_shipping_rates
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_automation_run_subjects
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_newsletters
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_scheduled_tasks
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_segments
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_sending_queues
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_statistics_newsletters
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_stats_notifications
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_subscriber_segment
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_mailpoet_subscriber_tag
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_term_taxonomy
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_termmeta
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_terms
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_wc_admin_notes
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_wc_customer_lookup
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_wc_download_log
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_wflogins
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_api_keys
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_yoast_primary_term
+[2023-04-10 13:54:18][notice]Preparing to dump table wp_yoast_seo_links
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_mailpoet_newsletter_links
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_mailpoet_statistics_clicks
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_mailpoet_statistics_unsubscribes
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_ulike_meta
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_usermeta
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_users
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wc_order_stats
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wfblocks7
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wfhits
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wfsnipcache
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_mailpoet_statistics_woocommerce_purchases
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_ulike
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_ulike_activities
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_ulike_comments
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_ulike_forums
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wc_order_product_lookup
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wfissues
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wfpendingissues
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_aioseo_notifications
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_mailpoet_statistics_opens
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wfstatus
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_comments
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_aioseo_cache
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_aioseo_posts
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_mailpoet_subscribers
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_yoast_indexable
+[2023-04-10 13:54:19][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-04-10 13:54:20][notice]Preparing to dump table wp_gla_budget_recommendations
+[2023-04-10 13:54:20][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-04-10 13:54:20][notice]Preparing to dump table wp_posts
+[2023-04-10 13:54:20][notice]Preparing to dump table wp_mailpoet_newsletter_templates
+[2023-04-10 13:54:20][notice]Preparing to dump table wp_postmeta
+[2023-04-10 13:54:20][notice]Preparing to dump table wp_wfconfig
+[2023-04-10 13:54:20][notice]Preparing to dump table wp_wfknownfilelist
+[2023-04-10 13:54:21][notice]Preparing to dump table wp_options
+[2023-04-10 13:54:21][notice]Preparing to dump table wp_wffilemods
+[2023-04-10 13:54:24][notice]Exporting database finished.
+[2023-04-10 13:54:24][notice]Start compressing database
+[2023-04-10 13:54:24][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_db.sql
+[2023-04-10 13:54:26][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_db.part001.zip, filesize: 6.83 MB
+[2023-04-10 13:54:26][notice]Compressing database completed
+[2023-04-10 13:54:26][notice]Backing up backup_db completed.
+[2023-04-10 13:54:26][notice]Prepare to backup backup_themes files.
+[2023-04-10 13:54:28][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_themes.part001.zip index:1883
+[2023-04-10 13:55:16][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_themes.part001.zip success. index:1883 file size:59.42 MB
+[2023-04-10 13:55:16][notice]Backing up backup_themes completed.
+[2023-04-10 13:55:16][notice]Prepare to backup backup_plugin files.
+[2023-04-10 13:56:05][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_plugin.part001.zip index:15351
+[2023-04-10 14:00:16][error]Task timed out.
+[2023-04-10 14:00:37][notice]Start backing up.
+[2023-04-10 14:00:37][notice]server info fcgi:Off max execution time: 300 wp version:6.2 php version:8.2.0 db version:10.4.27 php ini:safe_mode: memory_limit:256M memory_get_usage:131.19 MB memory_get_peak_usage:132.12 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-04-10 14:00:37][notice]Prepare to backup backup_plugin files.
+[2023-04-10 14:01:25][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_plugin.part001.zip index:15351
+[2023-04-10 14:03:08][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_plugin.part001.zip success. index:15351 file size:209.82 MB
+[2023-04-10 14:03:09][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_plugin.part002.zip index:21711
+[2023-04-10 14:05:33][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_plugin.part002.zip success. index:21711 file size:55.74 MB
+[2023-04-10 14:05:33][notice]Backing up backup_plugin completed.
+[2023-04-10 14:05:33][notice]Prepare to backup backup_uploads files.
+[2023-04-10 14:05:34][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_uploads.part001.zip index:74
+[2023-04-10 14:05:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_uploads.part001.zip success. index:74 file size:52.83 MB
+[2023-04-10 14:05:39][notice]Backing up backup_uploads completed.
+[2023-04-10 14:05:39][notice]Prepare to backup backup_content files.
+[2023-04-10 14:05:39][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_content.part001.zip index:23
+[2023-04-10 14:05:40][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_content.part001.zip success. index:23 file size:6.42 MB
+[2023-04-10 14:05:40][notice]Backing up backup_content completed.
+[2023-04-10 14:05:40][notice]Prepare to backup backup_core files.
+[2023-04-10 14:05:45][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_core.part001.zip index:2564
+[2023-04-10 14:06:54][notice]Compressing zip file:localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_core.part001.zip success. index:2564 file size:58.54 MB
+[2023-04-10 14:06:54][notice]Backing up backup_core completed.
+[2023-04-10 14:06:54][notice]Prepare to backup backup_merge files.
+[2023-04-10 14:06:54][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_db.zip
+[2023-04-10 14:06:54][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_all.part001.zip, filesize: 6.83 MB
+[2023-04-10 14:06:54][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_themes.zip
+[2023-04-10 14:06:59][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_all.part001.zip, filesize: 32.04 MB
+[2023-04-10 14:06:59][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_plugin.part001.zip
+[2023-04-10 14:07:14][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_all.part001.zip, filesize: 98.91 MB
+[2023-04-10 14:07:14][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_plugin.part002.zip
+[2023-04-10 14:07:19][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_all.part001.zip, filesize: 112.95 MB
+[2023-04-10 14:07:20][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_uploads.zip
+[2023-04-10 14:07:26][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_all.part001.zip, filesize: 165.53 MB
+[2023-04-10 14:07:26][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_content.zip
+[2023-04-10 14:07:28][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_all.part001.zip, filesize: 171.95 MB
+[2023-04-10 14:07:28][notice]Prepare to zip file. file: localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_core.zip
+[2023-04-10 14:07:34][notice]Adding zip files completed.localhost_perfumwordpress_wpvivid-6434150256443_2023-04-10-13-54_backup_all.part001.zip, filesize: 190.18 MB
+[2023-04-10 14:07:36][notice]Backing up backup_merge completed.
+[2023-04-10 14:07:36][notice]Backup completed.

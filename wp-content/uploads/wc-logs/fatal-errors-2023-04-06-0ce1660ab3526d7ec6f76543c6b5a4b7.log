@@ -1,0 +1,8 @@
+2023-04-06T09:11:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\google-listings-and-ads\vendor\googleads\google-ads-php\src\Google\Ads\GoogleAds\V12\Errors\GoogleAdsFailure.php on line 17
+
+2023-04-06T09:11:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\google-listings-and-ads\vendor\league\container\src\Definition\Definition.php on line 211
+
+2023-04-06T13:18:53+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\zip\class-wpvivid-pclzip.php on line 2671
+
+2023-04-06T13:44:46+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\zip\class-wpvivid-pclzip.php on line 2671
+

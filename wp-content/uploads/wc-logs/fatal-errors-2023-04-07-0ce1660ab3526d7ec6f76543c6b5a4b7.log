@@ -1,0 +1,216 @@
+2023-04-07T10:01:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\google-listings-and-ads\src\DB\TableManager.php on line 13
+
+2023-04-07T11:15:50+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\edit-form-blocks.php(309): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Perfumwordpress\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:16:46+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\edit-form-blocks.php(309): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Perfumwordpress\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:16:58+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\edit-form-blocks.php(309): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Perfumwordpress\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:17:43+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:17:48+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin.php(239): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:17:57+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:18:26+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin.php(239): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:18:49+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\plugins.php(605): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:19:01+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\plugins.php(605): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:19:13+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Perfumwordpress/wp-content/wflogs/config.php in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(187): wfWAFStorageFile->getConfig('disabledRules')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\optinmonster\OMAPI\Wordfence.php(87): OMAPI_Wordfence::has_expired_rules()
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): OMAPI_Wordfence->handle_messages('')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-header.php(311): do_action('all_admin_notic...')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-admin\plugins.php(605): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
+2023-04-07T11:29:21+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\zip\class-wpvivid-pclzip.php on line 2671
+
+2023-04-07T11:29:44+00:00 CRITICAL Uncaught TypeError: array_shift(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\new_backup\class-wpvivid-backup2.php:549
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\new_backup\class-wpvivid-backup2.php(549): array_shift(NULL)
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\new_backup\class-wpvivid-backup2.php(465): WPvivid_Backup_2->upload('wpvivid-642ffd4...')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): WPvivid_Backup_2->backup_schedule('wpvivid-642ffd4...')
+#3 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Perfumwordpress\wp-cron.php(188): do_action_ref_array('wpvivid_backup_...', Array)
+#6 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\new_backup\class-wpvivid-backup2.php on line 549
+
+2023-04-07T14:30:42+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\zip\class-wpvivid-pclzip.php on line 2671
+
+2023-04-07T16:46:51+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:17
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(111): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(38): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php(21): ActionScheduler_ActionFactory->single_unique('action_schedule...', Array, 1680886071, 'action-schedule...', false)
+#4 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\migration\Scheduler.php(39): as_schedule_single_action(1680886071, 'action_schedule...', Array, 'action-schedule...')
+#5 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\migration\Controller.php(51): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\Perfumwordpress\wp-settings.php(645): do_action('wp_loaded')
+#10 C:\xampp\htdocs\Perfumwordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Perfumwordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Perfumwordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Perfumwordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 17
+
+2023-04-07T16:47:04+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php:379
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(323): ActionScheduler_wpPostStore->claim_actions('036db92da7ada10...', 25, NULL, Array, '')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(99): ActionScheduler_wpPostStore->stake_claim(25, NULL, Array, '')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(68): ActionScheduler_HybridStore->stake_claim(25)
+#3 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(60): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Perfumwordpress\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#8 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php on line 379
+
+2023-04-07T16:47:08+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php:379
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(323): ActionScheduler_wpPostStore->claim_actions('78d214963474762...', 25, NULL, Array, '')
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(99): ActionScheduler_wpPostStore->stake_claim(25, NULL, Array, '')
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(68): ActionScheduler_HybridStore->stake_claim(25)
+#3 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(60): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#4 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('Async Request')
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(13): do_action('action_schedule...', 'Async Request')
+#8 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#9 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): WP_Async_Request->maybe_handle('')
+#10 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#13 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php on line 379
+
+2023-04-07T16:48:14+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Database error. in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:52
+Stack trace:
+#0 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(16): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(50): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php(31): ActionScheduler_ActionFactory->recurring_unique('pinterest_for_w...', Array, 1680886094, 3600, 'pinterest-for-w...', false)
+#4 C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\pinterest-for-woocommerce\src\Heartbeat.php(66): as_schedule_recurring_action(1680886094, 3600, 'pinterest_for_w...', Array, 'pinterest-for-w...')
+#5 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(308): Automattic\WooCommerce\Pinterest\Heartbeat->schedule_events('')
+#6 C:\xampp\htdocs\Perfumwordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\Perfumwordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\Perfumwordpress\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#9 {main}
+  thrown in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 52
+
+2023-04-07T16:54:24+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\Perfumwordpress\wp-content\plugins\wpvivid-backuprestore\includes\new_backup\class-wpvivid-zip.php on line 53
+
